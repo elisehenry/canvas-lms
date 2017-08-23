@@ -19,7 +19,7 @@
 gem 'bundler', '>= 1.13.3', '<= 1.15.4'
 
 if Gem::Version.new(Bundler::VERSION) >= Gem::Version.new('1.14.0') &&
-  Gem::Version.new(Gem::VERSION) < Gem::Version.new('2.6.9')
+  Gem::Version.new(Gem::VERSION) < Gem::Version.new('2.3.1')
   raise "Please run `gem update --system` to bring RubyGems to 2.6.9 or newer for use with Bundler 1.14 or newer."
 end
 
